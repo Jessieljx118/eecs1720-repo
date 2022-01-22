@@ -1,0 +1,23 @@
+{
+  "name": " Jiaxi Li First EECS1720 Extension",
+  "description": "This my first extension. I go through theand try to pulish it.",
+  "version": "1.0",
+  "permissions":["activeTab"],
+  "icons": {
+    "16": "img/icon1.png",
+    "32": "img/icon1.png",
+    "48": "img/icon1.png"    
+    
+  },
+  "browser_action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "img/icon1.png",
+      "32": "img/icon1.png",
+      "48": "img/icon1.png" 
+    }
+    
+  },
+  "manifest_version":2
+}
+  
