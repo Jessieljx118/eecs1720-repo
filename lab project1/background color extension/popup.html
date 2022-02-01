@@ -1,0 +1,41 @@
+<!doctype html>
+
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>change background color</title>
+    <style type="text/css">
+        body {
+            margin: 10px;
+            white-space: nowrap;
+        }
+
+        h1 {
+            font-size: 15px;
+        }
+
+        #container {
+            align-items: center;
+            display: flex;
+            justify-content: space-between;
+        }
+    </style>
+
+   
+    <script src="popup.js"></script>
+</head>
+
+<body>
+    <h1>change background color</h1>
+    <div id="container">
+        <span>choose a color you like</span>
+        <select id="dropdown">
+            <option selected disabled hidden value=''></option>
+            <option value="white">White</option>
+            <option value="pink">Pink</option>
+            <option value="green">Green</option>
+            <option value="yellow">Yellow</option>
+        </select>
+    </div>
+</body>
+</html>
